@@ -9,6 +9,7 @@ import {findLessonDetail} from "./get-lesson-detail.route";
 
 const bodyParser = require('body-parser');
 
+// @ts-ignore
 const app: Application = express();
 
 const cors = require('cors');
